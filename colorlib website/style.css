@@ -1,0 +1,100 @@
+.navbar{
+    background-color:rgb(114, 114, 205);
+ 
+}
+
+
+.navbar a {
+    padding-left:50px;
+   display:inline;
+   padding-left: 100px;
+   color: black;
+ 
+}
+.container {
+    position: relative;
+    display: inline-block; /* Isse container apne content ke adhar par size karega. */
+  }
+  
+  .image-container {
+    position: relative;
+    display: inline-block; /* Isse container apne content ke adhar par size karega. */
+    width: 80%;
+    height: 30%;
+    
+}
+  
+  .text-overlay {
+    position: absolute;
+    top: 20%; /* Vertical position ko adjust karein jaise aapko chahiye */
+    left: 30%; /* Horizontal position ko adjust karein jaise aapko chahiye */
+    transform: translate(-50%, -50%); /* Text ko horizontally aur vertically center me rakhne ke liye */
+   
+    color: #002d5b; /* Text color ko set karein */
+    padding: 10px; /* Text ke aaspaas ka space ko adjust karein */
+    font-size: 70px;
+    margin-top: 10%;
+  }
+  .text-overlay h3{
+    font-size: 30px;
+    margin-top: 50px;
+    color: black;
+  }
+  .text-overlay .btn{
+    /* width:20%; */
+    height: 50px;
+    font-size: 20px;
+    margin-top: 40px;
+    border-radius:   15%;
+    background-color:rgb(114, 114, 205);
+    color: white;
+    border: none;
+  }
+  .text-overlay .btn:hover{
+    background-color: #002d5b ;
+
+  }
+  .container2 .header h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(20, 19, 19);
+   
+    font-size: 40px;
+
+  }
+  .container2 .header p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+  .container2 .header2 h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+
+  }
+  .container2 .header2 p{
+    color: #464d65;
+    font-family: "Rubik",sans-serif;
+    font-size: 30px;
+    text-align: center;
+  }
+  .container2 .header2 h3{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+  }
+  .main1 h1{
+    font-size: 50px;
+  }
+ .main2{
+  margin-left: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  width: 20%;
+ }
+ .main3{
+  margin-top: 50px;
+ }
+  
+  
+  
