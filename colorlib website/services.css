@@ -1,0 +1,62 @@
+.navbar{
+    background-color:rgb(159, 159, 222);
+ 
+}
+
+
+.navbar a {
+    padding-left:50px;
+   display:inline;
+   padding-left: 100px;
+   color: black;
+
+ 
+}
+.navbar a:hover{
+  color: white;
+}
+.container {
+    position: relative;
+    display: inline-block; /* Isse container apne content ke adhar par size karega. */
+  }
+  
+  .about {
+  background-color: #8799e7;
+    width: 200%; 
+    height: 40vh;
+    margin-top: 70px;
+    
+  }
+  .about h1{
+    font-size: 60px;
+   margin-left: 80px;
+   padding-top: 70px;
+ 
+  
+   
+  }
+  .about h3{
+    font-size: 20px;
+   margin-left: 80px;
+   color:chocolate
+   
+  }
+  .services img{
+    width: 100%;
+    height: 50%;
+  }
+  .container h1{
+    width: 100%;
+  align-items: center;
+  margin-left: 50%;
+  font-size: 50px;
+  color: #0f268e;
+  }
+  .container h3{
+    width: 100%;
+  align-items: center;
+  margin-left: 50%;
+  font-size: 30px;
+  color:black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }

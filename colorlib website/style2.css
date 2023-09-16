@@ -1,12 +1,6 @@
-/* @media screen {max-width =1024; */
-  
-
 .navbar{
-    background-color:rgb(114, 114, 205);
+    background-color:rgb(159, 159, 222);
  
-}
-.navbar a:hover{
-  color: white;
 }
 
 
@@ -17,49 +11,70 @@
    color: black;
  
 }
+.navbar a:hover{
+  color: white;
+}
 .container {
     position: relative;
     display: inline-block; /* Isse container apne content ke adhar par size karega. */
   }
   
-  .image-container {
-    position: relative;
-    display: inline-block; /* Isse container apne content ke adhar par size karega. */
-    width: 80%;
-    height: 30%;
+  .about{
+    background-color: #8799e7;
+    width: 100%;
+    height: 40vh;
+    margin-top: 70px;
     
-}
+  }
+  .about h1{
+    font-size: 60px;
+   margin-left: 80px;
+   padding-top: 70px;
+ 
   
-  .text-overlay {
-    position: absolute;
-    top: 20%; /* Vertical position ko adjust karein jaise aapko chahiye */
-    left: 30%; /* Horizontal position ko adjust karein jaise aapko chahiye */
-    transform: translate(-50%, -50%); /* Text ko horizontally aur vertically center me rakhne ke liye */
    
-    color: #002d5b; /* Text color ko set karein */
-    padding: 10px; /* Text ke aaspaas ka space ko adjust karein */
-    font-size: 70px;
-    margin-top: 10%;
   }
-  .text-overlay h3{
-    font-size: 30px;
-    margin-top: 50px;
-    color: black;
-  }
-  .text-overlay .btn{
-    /* width:20%; */
-    height: 50px;
+  .about h3{
     font-size: 20px;
-    margin-top: 40px;
-    border-radius:   15%;
-    background-color:rgb(114, 114, 205);
+   margin-left: 80px;
+   color: red;
+   
+  }
+  .image{
+    margin-top: 15%;
+    margin-left: 10%;
+    
+  }
+  .image h1{
+    float: right;
+    margin-right: 30%;
+    margin-top: 5%;
+    font-size: 50px;
+  }
+  .image h1 p{
+    float: right;
+    margin-right: 30%;
+    padding-top: 2px;
+    font-size:30%;
+   
+  }
+  .image .btn{
+    float: right;
+    margin-right: 30%;
+    /* padding-top: 40px; */
+    font-size:30%;
+    margin-bottom: 80px;
+    width: 15%;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 7px;
+    background-color:#002d5b;
     color: white;
-    border: none;
   }
-  .text-overlay .btn:hover{
-    background-color: #002d5b ;
+  .image .btn:hover{
+    background-color: #a1b1f0;
+  }
 
-  }
   .container2 .header h1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
@@ -133,13 +148,13 @@ font-size: 30px;
 
   }
   .footer .container3{
-    background-color:pink;
+    background-color:palegreen;
   }
   .footer .container3 h1{
     font-family:  Rufina, serif;
     padding-top: 20%;
     font-size: 50px;
-    color: rgb(161, 35, 35);
+    color:#002d5b;
    
   }
   .footer .container3 .btn{
@@ -148,13 +163,13 @@ font-size: 30px;
     font-size: 20px;
     margin-top: 40px;
     border-radius:   20%;
-    background-color:rgb(217, 20, 20) ;
+    background-color:#002d5b ;
     color:white ;
     border: none;
     margin-left: 60px;
   }
   .footer .btn:hover{
-    background-color:rgb(191, 37, 37) ;
+    background-color:#002d5b ;
 
   }
   .footer2 .container4 h1{
@@ -170,32 +185,25 @@ font-size: 30px;
   .footer2 .container4 img{
     margin-top: 30px;
   }
-  .container5 form{
-
-    margin-left: 70%;
-    margin-top: 10%;
-    width: 190px;
-    height: 780px;
-  color: #191a1e ;
-
-   } 
-   .container5 .btn{
-    /* width:20%; */
-    height: 50px;
-    font-size: 20px;
-    margin-top: 40px;
-    border-radius:   10%;
-    background-color:rgb(228, 18, 18) ;
-    color:black ;
-    border: none;
-    margin-left: 60px;
+  .touch h1{
+ margin-left: 40%;
+ color: #002d5b;
+ font-size: 50px;
   }
-  .container5 .btn:hover{
-    background-color: chocolate;
+  .form{
+    margin-left: 45%;
+    margin-top: 5%;
+    
   }
-  .footer3{
-    background-color: #464d65;
-  }
-
-  
-   
+.form .btn{
+padding: 10px;
+width: 30%;
+background-color: #002d5b;
+border-radius: 7%;
+}
+.portfolio h1{
+ 
+  padding-top: 10%;
+  font-size: 45px;
+  color: #002d5b;
+}
